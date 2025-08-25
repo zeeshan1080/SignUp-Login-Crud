@@ -1,0 +1,77 @@
+* {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b183d; /* Dark purple background fallback */
+}
+
+.signup-container {
+  background: linear-gradient(to right, #1b183d, #3a2ebd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91.2vh;
+  padding: 20px;
+}
+
+.signup-form {
+  background-color: #ffffff;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.signup-form:hover {
+  box-shadow: 0 30px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #4134CD;
+}
+
+/* Make inputs taller and more spacious */
+/* Remove this block if present */
+.form-control {
+  padding: 8px 12px;  /* Slightly smaller padding than default */
+  font-size: 15px;    /* Slightly smaller font */
+  min-height: 38px;   /* Slightly less than large but taller than small */
+}
+
+
+
+.form-control-lg {
+  /* Bootstrap’s built-in large input styles (works with above overrides) */
+  font-weight: 500;
+}
+
+/* Slightly larger checkbox */
+.form-check-input {
+  transform: scale(1.2);
+  margin-right: 8px;
+}
+
+.form-check {
+  margin-left: 28px; /* adjust as needed */
+
+}
+
+
+.custom-btn {
+  background-color: #4134CD;
+  border-color: #4134CD;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.custom-btn:hover {
+  background-color: #3529b0;
+  border-color: #3529b0;
+}

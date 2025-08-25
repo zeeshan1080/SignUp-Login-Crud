@@ -1,0 +1,11 @@
+.navbar {
+  background-color: #2e2b55; /* Dark purple matching body */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* subtle shadow */
+}
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: white; /* make text visible */
+}
+.navbar .nav-link:hover {
+  color: #4134cd; /* button purple on hover */
+}
